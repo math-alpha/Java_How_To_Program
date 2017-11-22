@@ -1,0 +1,37 @@
+import java.util.Random;
+import java.util.Scanner;
+
+class GuessTheNumber{
+
+    public void  Display(){
+      System.out.print("Welcome to Guess it!\nOBJECTIVE\n\tGuess a number between 0 and 1000\n")
+    }
+     
+    public void play(){
+     
+       Random r = new Ramdom();
+       int t = 1 + r.nextInt(1000);
+       
+       System.out.print("Enter a guess number:");
+       int numbr = input.nextInt();
+       
+       if(numbr < t){
+          play()
+          System.out.print("Too small\n");
+       } else if(numbr > t){
+          System.out.print("Too large\n");
+          play()
+       } else{
+         System.out.print("Congratulations You guessed the number :) !\nPlay again? Yes-1 No-0");
+         int choice = nextInt();
+         
+         if(choice == 1){
+           play();
+         }
+         
+         
+    }
+    }
+    
+
+}
