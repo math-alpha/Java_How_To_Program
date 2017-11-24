@@ -37,7 +37,7 @@ class NegativePositiveZeroValues{
        ++countNeg; 
      }
      if(num2 < 0){
-       ++count; 
+       ++countNeg; 
      }
      if(num3 < 0){
        ++countNeg; 
