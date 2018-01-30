@@ -1,20 +1,20 @@
-class shapes{
-  
-   public void space(int i ){
+class Shapes{
+
+  public void space(int i ){
     for(int y = 1; y <= i; y++){
-       System.out.print(" ");
+      System.out.print(" ");
     }
   }
   
   public void str(){
-  System.out.print("*");
+    System.out.print("*");
   }
   
   public void cube(int i){
     if(i == 1 || i == 9){
-       System.out.print("********* ");
+      System.out.print("********* ");
     } else
-       System.out.print("*       * ");
+      System.out.print("*       * ");
   }
   
     public void circle(int i){
@@ -38,6 +38,7 @@ class shapes{
  public void diamond(int i){
     if(i == 1 || i == 9){
        System.out.print("    *     ");
+       System.out.print("\n");
     } else if(i <= 5){ // a liitle bit of maths :)
        space(5 - i);
        str();

@@ -23,7 +23,7 @@ class ArithmeticSmallestLargest{
        max = d;
      if(e > max)
        max = e;
-     return max
+     return max;
    }
    
 }

@@ -6,6 +6,7 @@ class ArithmeticSmallestLargest{
        min = b;
      if(c < min)
        min = c;
+       
      return min;
    }
    
@@ -15,7 +16,8 @@ class ArithmeticSmallestLargest{
        max = b;
      if(c > max)
        max = c;
-     return max
+       
+     return max;
    }
    
 }

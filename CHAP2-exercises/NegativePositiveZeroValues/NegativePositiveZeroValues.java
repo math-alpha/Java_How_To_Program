@@ -6,7 +6,7 @@ class NegativePositiveZeroValues{
     
     Scanner input = new Scanner(System.in);
     
-    System.out.print("Enter five numbers seperated by space");
+    System.out.print("\nPlease enter five numbers seperated by space: ");
      int num1 = input.nextInt();
      int num2 = input.nextInt();
      int num3 = input.nextInt();
@@ -66,7 +66,7 @@ class NegativePositiveZeroValues{
        ++countNul; 
      }
      
-     System.out.printf("%s: %d%n%s: %d%n%s: %d%n", "Postive numbers", countPos, "Negative numbers", countNeg, "Number of zeros", countNul);
+     System.out.printf("%n%s: %d%n%s: %d%n%s: %d%n%n", "Postive numbers", countPos, "Negative numbers", countNeg, "Number of zeros", countNul);
      
   }
   

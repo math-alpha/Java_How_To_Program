@@ -9,18 +9,18 @@ public static void main(String[] args)
 {
 
 Scanner input = new Scanner(System.in);
-int num1; 
-int num2;  
-System.out.print("Enter first integer: "); 
-num1 = input.nextInt(); 
-System.out.print("Enter second integer: ");
-num2 = input.nextInt();
+float num1; 
+float num2;  
+System.out.printf("Enter first integer: "); 
+num1 = input.nextFloat(); 
+System.out.printf("Enter second integer: ");
+num2 = input.nextFloat();
 
-System.out.printf("%d + %d = %d%n", num1, num2, num1+num2); 
-System.out.printf("%d * %d = %d%n", num1, num2, num2*num1);
-System.out.printf("%d - %d = %d%n", num1, num2, num1-num2); 
-System.out.printf("%d - %d = %d%n", num2, num1, num2-num1);
-System.out.printf("%d / %d = %.3%n", num1, num2, num1/num2); 
-System.out.printf("%d / %d = %.2f%n", num2, num1 num2/num1);
+System.out.printf("%.0f + %.0f = %.0f%n", num1, num2, num1+num2); 
+System.out.printf("%.0f * %.0f = %.0f%n", num1, num2, num2*num1);
+System.out.printf("%.0f - %.0f = %.0f%n", num1, num2, num1-num2); 
+System.out.printf("%.0f - %.0f = %.0f%n", num2, num1, num2-num1);
+System.out.printf("%.0f / %.0f = %.3f%n", num1, num2, num1/num2); 
+System.out.printf("%.0f / %.0f = %.2f%n", num2, num1, num2/num1);
 }
 }

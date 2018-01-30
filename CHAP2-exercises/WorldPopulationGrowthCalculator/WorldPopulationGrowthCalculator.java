@@ -10,11 +10,12 @@ class WorldPopulationGrowthCalculator{
       double pop = input.nextDouble();
       System.out.print("Enter estimated growth rate:");
       double rate = input.nextDouble();
-   }
+   
    
    for(int i = 1; i <= 5; i++){
       pop = pop + rate*pop;
-      System.out.printf("%s %d %s %.0e%n", "Estimated population after", i, "year[s] is", pop );
+      System.out.printf("%s %d %s %20e%n", "Estimated population after", i, "year[s] is", pop );
    }
    
+}
 }
